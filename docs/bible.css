@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Ballet&family=Great+Vibes&display=swap");
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80vw;
+  margin: 0 10vw;
+}
+
+#wrapper {
+  position: relative;
+}
+
+#metadata {
+  font-family: "Great Vibes";
+  font-size: 32pt;
+}
+
+#metadata::first-letter {
+  font-family: "Ballet";
+}
